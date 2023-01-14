@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+}
+.element{
+    margin-right:10px ;
+}
+
+input{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    color: black;
+}
+
+button{
+    padding: 5px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.invisible{
+    display: none;
+}
+
+table{
+    border:1px solid white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    width: 550px;
+}
+
+table td{
+
+    text-align: center;
+}
